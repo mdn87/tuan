@@ -1,0 +1,5 @@
+# Local session state and verification receipts
+/.Codex/handoff.md
+/.Codex/handoff-history/
+/.lugos-audit/
+/.lugos-wip/
