@@ -1,4 +1,4 @@
-# Kickoff plan: Fable cross-review
+# Kickoff plan: Fable rounds and Argon closure review
 
 Date: 2026-10-31. Scope: review and correct the existing kickoff plan; no Tuan implementation, collection, or experiment is authorized.
 
@@ -72,10 +72,18 @@ Fable returned five findings: four medium and one low. Root disposition: each cl
 | R3-F4: re-acquisition | Permitted evidenced authoritative re-acquisition as a second migration path. A source dedup key alone does not prove unchanged content, and policy changes cannot restore deleted facts. |
 | R3-F5: training cutoff | Made the existing cutoff rule explicit for every forecast kind and fitted transformation. Prospective issuance cannot use later training evidence through a reused checkpoint; the suggested expansion to a later effective cutoff was rejected. |
 
-Round 3 outcome: five clarifications applied and checked locally. No fourth round was run. This is not a zero-finding Fable verdict; the root closed the bounded review after verifying the final corrections.
+Round 3 outcome: five clarifications applied and checked locally. At that point no fourth round had run, so this was not a zero-finding Fable verdict. The operator subsequently requested the independent Argon pass below.
+
+## Round 4: Argon closure pass
+
+Autowork run `20261031-094019-cross-review` succeeded on 2026-10-31 using `agy-argon`, model `gemini-4-argon-high`, effort `high`, adversarial mode. It reviewed the plan at `b773817`, file SHA-256 `a89b6957d6c1ea2f4b39ee1673c45e3430833dee42524c3800f80d7a9c706f22`; packet manifest SHA-256: `ee7d45781e3a77edf688969b9f5c79f8c82643b0420014c7352ad68d15ef896b`.
+
+Scope: the final five corrections and their interactions—issuance reassessment, compact eligibility evidence, frozen evaluation boundaries and window time, evidenced re-acquisition, and training cutoffs on reused checkpoints. This was a focused closure review, not a repeat of the unchanged plan sections.
+
+Argon returned `{"findings": [], "status": "no findings"}`. Autowork recorded zero findings and zero adjudications. The reviewed plan hash still matches the working tree; no plan correction followed this pass. The focused planning review is closed, with implementation and operational acceptance still separate.
 
 ## Verification
 
 Documentation checks passed for the unchanged milestone heading structure, unchanged M4/M5 and D1–D6 proposal sections, corrected terminology, fenced blocks, the final contract guards, and all 39 finding dispositions. `git diff --check` passed. The final plan's file SHA-256 is `a89b6957d6c1ea2f4b39ee1673c45e3430833dee42524c3800f80d7a9c706f22`.
 
-These are documentation checks, not execution of the future acceptance tests. No Tuan implementation, source collection, model promotion, or experiment was performed. The final five corrections received root verification, not a fourth Fable verdict.
+These are documentation checks, not execution of the future acceptance tests. No Tuan implementation, source collection, model promotion, or experiment was performed. The final five corrections received root verification and the subsequent zero-finding Argon closure pass; there was no fourth Fable verdict.
