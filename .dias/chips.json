@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "projectId": "tuan",
+  "projectLabel": "Tuan",
+  "chips": [
+    {
+      "schemaVersion": 1,
+      "chipId": "tuan:kickoff-review",
+      "projectId": "tuan",
+      "title": "Review the combined kickoff plan",
+      "summary": "Consolidate reuse decisions and close independent plan reviews. Three Fable rounds and the Argon pass are complete.",
+      "stage": "done",
+      "sequence": 10,
+      "prereqs": [],
+      "linkedRunIds": [],
+      "confidence": "reported",
+      "aheadOfPrereqs": null,
+      "timestamps": {
+        "createdAt": "2026-10-31T09:49:41.641Z",
+        "updatedAt": "2026-10-31T09:49:41.641Z"
+      },
+      "evidence": [
+        {
+          "entryId": "tuan:kickoff-review:created",
+          "at": "2026-10-31T09:49:41.641Z",
+          "kind": "created",
+          "message": "Three Fable rounds resolved findings; the Argon cross-review returned zero findings. Review closure is recorded in the repository."
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "chipId": "tuan:m0",
+      "projectId": "tuan",
+      "title": "M0: Repository seed, discovery, and contracts",
+      "summary": "Finish repository hygiene, inspect producer evidence, define contracts and decisions, and capture a sanitized real-workflow sample.",
+      "stage": "ready",
+      "sequence": 20,
+      "prereqs": [
+        "tuan:kickoff-review"
+      ],
+      "linkedRunIds": [],
+      "confidence": "reported",
+      "aheadOfPrereqs": null,
+      "timestamps": {
+        "createdAt": "2026-10-31T09:49:41.641Z",
+        "updatedAt": "2026-10-31T09:49:41.641Z"
+      },
+      "evidence": [
+        {
+          "entryId": "tuan:m0:created",
+          "at": "2026-10-31T09:49:41.641Z",
+          "kind": "created",
+          "message": "Recorded from the reviewed combined kickoff plan. Implementation has not started; proposed decisions remain subject to their point-of-need gates."
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "chipId": "tuan:m1",
+      "projectId": "tuan",
+      "title": "M1: Replayable history and trustworthy accounting",
+      "summary": "Build the append-only ledger, normalization, replay, recovery, privacy controls, and accounting with explicit coverage.",
+      "stage": "planned",
+      "sequence": 30,
+      "prereqs": [
+        "tuan:m0"
+      ],
+      "linkedRunIds": [],
+      "confidence": "reported",
+      "aheadOfPrereqs": null,
+      "timestamps": {
+        "createdAt": "2026-10-31T09:49:41.641Z",
+        "updatedAt": "2026-10-31T09:49:41.641Z"
+      },
+      "evidence": [
+        {
+          "entryId": "tuan:m1:created",
+          "at": "2026-10-31T09:49:41.641Z",
+          "kind": "created",
+          "message": "Recorded from the reviewed combined kickoff plan. Implementation has not started; proposed decisions remain subject to their point-of-need gates."
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "chipId": "tuan:m2",
+      "projectId": "tuan",
+      "title": "M2: Shadow forecasts and first report",
+      "summary": "Compare baseline and challenger at frozen checkpoints; deliver a real-workflow report with retrospective and prospective evidence. First release stops here.",
+      "stage": "planned",
+      "sequence": 40,
+      "prereqs": [
+        "tuan:m1"
+      ],
+      "linkedRunIds": [],
+      "confidence": "reported",
+      "aheadOfPrereqs": null,
+      "timestamps": {
+        "createdAt": "2026-10-31T09:49:41.641Z",
+        "updatedAt": "2026-10-31T09:49:41.641Z"
+      },
+      "evidence": [
+        {
+          "entryId": "tuan:m2:created",
+          "at": "2026-10-31T09:49:41.641Z",
+          "kind": "created",
+          "message": "Recorded from the reviewed combined kickoff plan. Implementation has not started; proposed decisions remain subject to their point-of-need gates."
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "chipId": "tuan:m3",
+      "projectId": "tuan",
+      "title": "M3: Live checkpoint capture and rule signals",
+      "summary": "Add operational capture and deterministic advisory signals after the first release.",
+      "stage": "planned",
+      "sequence": 50,
+      "prereqs": [
+        "tuan:m2"
+      ],
+      "linkedRunIds": [],
+      "confidence": "reported",
+      "aheadOfPrereqs": null,
+      "timestamps": {
+        "createdAt": "2026-10-31T09:49:41.641Z",
+        "updatedAt": "2026-10-31T09:49:41.641Z"
+      },
+      "evidence": [
+        {
+          "entryId": "tuan:m3:created",
+          "at": "2026-10-31T09:49:41.641Z",
+          "kind": "created",
+          "message": "Recorded from the reviewed combined kickoff plan. Implementation has not started; proposed decisions remain subject to their point-of-need gates."
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "chipId": "tuan:m4",
+      "projectId": "tuan",
+      "title": "M4: Bounded semantic observer",
+      "summary": "Add a bounded semantic observer with explicit evidence, cost, and advisory limits.",
+      "stage": "planned",
+      "sequence": 60,
+      "prereqs": [
+        "tuan:m3"
+      ],
+      "linkedRunIds": [],
+      "confidence": "reported",
+      "aheadOfPrereqs": null,
+      "timestamps": {
+        "createdAt": "2026-10-31T09:49:41.641Z",
+        "updatedAt": "2026-10-31T09:49:41.641Z"
+      },
+      "evidence": [
+        {
+          "entryId": "tuan:m4:created",
+          "at": "2026-10-31T09:49:41.641Z",
+          "kind": "created",
+          "message": "Recorded from the reviewed combined kickoff plan. Implementation has not started; proposed decisions remain subject to their point-of-need gates."
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "chipId": "tuan:m5",
+      "projectId": "tuan",
+      "title": "M5: Attribution and controlled improvement",
+      "summary": "Study attribution and ensembles; permit controlled improvement only after evidence and promotion gates are met.",
+      "stage": "planned",
+      "sequence": 70,
+      "prereqs": [
+        "tuan:m4"
+      ],
+      "linkedRunIds": [],
+      "confidence": "reported",
+      "aheadOfPrereqs": null,
+      "timestamps": {
+        "createdAt": "2026-10-31T09:49:41.641Z",
+        "updatedAt": "2026-10-31T09:49:41.641Z"
+      },
+      "evidence": [
+        {
+          "entryId": "tuan:m5:created",
+          "at": "2026-10-31T09:49:41.641Z",
+          "kind": "created",
+          "message": "Recorded from the reviewed combined kickoff plan. Implementation has not started; proposed decisions remain subject to their point-of-need gates."
+        }
+      ]
+    }
+  ]
+}

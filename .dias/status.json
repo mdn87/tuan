@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "projectId": "tuan",
+  "projectLabel": "Tuan",
+  "assessmentState": "unassessed",
+  "assessmentScope": "current-milestone",
+  "percentComplete": null,
+  "milestonePhase": "discovery",
+  "portfolioGroup": "agent-tooling",
+  "displayPriority": 200,
+  "assessedAt": "2026-10-31T09:49:41.641Z",
+  "confidence": "reported",
+  "currentMilestone": "Kickoff planning and independent review are complete. M0 discovery and contracts are next; implementation has not started.",
+  "remainingSummary": "Finish M0 inventory, contracts, decision records, and real-workflow sample. M1 builds trustworthy history; M2 delivers the first release. D1–D6 remain proposals until resolved at their point of need.",
+  "nextChipId": "tuan:m0",
+  "source": {
+    "label": "Combined kickoff plan and Fable/Argon review closure",
+    "updatedAt": "2026-10-31"
+  }
+}
